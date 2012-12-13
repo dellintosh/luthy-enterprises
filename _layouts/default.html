@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> {% if page.title %} {{ page.title }} &middot; {% endif %} Luthy Enterprises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luthy Enterprises">
+    <meta name="author" content="Justus Luthy for Luthy Enterprises">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/index.html">Luthy Enterprises</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="/index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <div style="padding-top: 0.5em;">
+                <a class="pull-right btn btn-small btn-primary" href="#"><i class="icon-user icon-white"></i> Join our Team!</a>
+              </div>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    {{ content }}
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span9">
+            <div class="row-fluid" style="border-bottom: 1px solid #555;">
+              <div class="span8">
+                <h4>ABOUT LUTHY ENTERPRISES</h4>
+                <p>Luthy Enterprises is ...</p>
+              </div>
+              <div class="span4">
+                <a class="btn btn-large btn-primary" href="/contact.html">Get Started</a>
+              </div>
+            </div><!-- /.row-fluid -->
+            <div class="clearfix"></div>
+            <div class="row-fluid">
+              <div class="span4">
+                <h4>LUTHYENTERPRISES.COM</h4>
+                <ul class="unstyled">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <h4>ABOUT</h4>
+                <ul class="unstyled">
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <h4>CONNECT</h4>
+                <ul class="unstyled">
+                  <li><a href="#">Like us on Facebook</a></li>
+                  <li><a href="#">Follow us on Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- /.span9 -->
+          <div class="span3">
+            <h4>CONNECT WITH US</h4>
+            <address>
+              819 N NUNDA PLACE <br>
+              SIOUX FALLS, SD 57107
+            </address>
+            <br><br>
+            <i class="icon-bullhorn icon-white"></i> (605) 353-4121 &middot; (605) 353-5385<br>
+            <i class="icon-envelope icon-white"></i> <a href="mailto:support@luthyenterprises.com">support@luthyenterprises.com</a>
+            <div class="clearfix"></div>
+          </div><!-- /.span3 -->
+        </div><!-- /.row -->
+        <p class="muted">&copy; 2012 Luthy Enterprises</p>
+      </div><!-- /.container -->
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>
