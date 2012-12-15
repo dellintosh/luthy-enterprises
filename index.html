@@ -36,7 +36,16 @@
             <p>Hold on, we're working hard and are really excited for the launch.</p>
             <a href="mailto:contact@luthyenterprises.com" class="well">Contact Us</a>
           </div>
-          <ul id="timer" class="pull-right"></ul>
+          <!-- Newsletter form : Keep the id : newsletter on form-->      
+<!--           <form class="form-horizontal" id="newsletter">
+            <div class="control-group">
+                  <div class="controls">
+                      <input type="email" placeholder="Enter your email address to be notified">
+                      <input type="submit" value="Go !">
+                    </div>
+            </div>
+          </form><!-- end #newsletter -->
+
         </div>
       </div><!-- /.centered -->
 
@@ -66,14 +75,5 @@
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script>
-    jQuery(document).ready(function($) {
-      CreateTimer("timer", {
-        year: 2013,
-        month: 2,
-        day: 1
-      });
-    });
-    </script>
   </body>
 </html>
