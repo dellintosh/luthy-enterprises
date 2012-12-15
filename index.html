@@ -29,20 +29,48 @@
 
     <div class="container">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="hero-unit">
-          <h2>Coming Soon</h2>
-          <p>Hold on, we're working on it.  In the meantime, feel free to <a href="mailto:jt@luthyenterprises.com">contact us</a>.</p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
+      <div class="centered">
+        <h1>Coming Soon</h1>
+        <div class="message">
+          <p>Hold on, we're working hard and are really excited for the launch of our new site.</p>
+        </div>
+        <ul id="timer" class="pull-right"></ul>
+      </div><!-- /.centered -->
 
-    </div><!-- /.container -->
+
+<div class="navbar navbar-fixed-bottom">
+      <div class="navbar-inner container">
+      <a class="brand" href="#">LuthyEnterprises<span>&#176;</span></a>
+      <ul class="nav pull-right">
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feedback</a>
+          <ul class="dropdown-menu">
+            <li><a href="mailto:contact@luthyenterprises.com">contact@luthyenterprises.com</a></li>
+            <li class="divider"></li>
+            <li>
+              <a href="tel:6053534121">1 (605) 353-4121</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div> 
+      </div><!-- /.container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+      CreateTimer("timer", {
+        year: 2013,
+        month: 2,
+        day: 1
+      });
+    });
+    </script>
   </body>
 </html>
